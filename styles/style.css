@@ -1,0 +1,33 @@
+@import url(../styles/header.css);
+
+:root {
+  --my-color: rgb(255, 204, 50);
+}
+
+body {
+  background-color: #000;
+}
+
+body,
+button {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+/* .body_fixed {
+  overflow: hidden;
+} */
+
+h1,
+h2,
+h3,
+div,
+a,
+p {
+  letter-spacing: -0.03em;
+}
+
+.container {
+  width: 1155px;
+  margin: 0 auto;
+}

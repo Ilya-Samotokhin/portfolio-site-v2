@@ -1,0 +1,62 @@
+.header__wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 765px;
+  background-image: url(../resources/greetings.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 27px;
+}
+
+.header__top {
+  width: 100%;
+  display:  flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 20px;
+  border-radius: 25px;
+}
+
+.header__bottom {
+  position: absolute;
+  bottom: 12%;
+}
+
+.logo {
+  line-height: 55px;
+font-size: 43px;
+font-weight: 700;
+letter-spacing: -0.11em;
+text-decoration: none;
+text-transform: uppercase;
+color: var(--my-color);
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.nav__item {
+  font-size: 18px;
+  line-height: 55px;
+  text-decoration: none;
+  color: var(--my-color);
+
+}
+
+.header__text {
+  max-width: 360px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+}
+
+.header__title {
+  width: 65%;
+  font-size: 80px;
+  line-height: 70px;
+  color: var(--my-color);
+}
