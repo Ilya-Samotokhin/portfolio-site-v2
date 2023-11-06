@@ -1,7 +1,6 @@
-.header__wrapper {
-  position: relative;
+.header {
   width: 100%;
-  min-height: 765px;
+  height: auto;
   background-image: url(../resources/greetings.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,26 +9,26 @@
 
 .header__top {
   width: 100%;
-  display:  flex;
+  display: flex;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0 20px;
   border-radius: 25px;
+  margin-bottom: 252px;
 }
 
 .header__bottom {
-  position: absolute;
-  bottom: 12%;
+  padding-bottom: 94px;
 }
 
 .logo {
   line-height: 55px;
-font-size: 43px;
-font-weight: 700;
-letter-spacing: -0.11em;
-text-decoration: none;
-text-transform: uppercase;
-color: var(--my-color);
+  font-size: 43px;
+  font-weight: 700;
+  letter-spacing: -0.11em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--my-color);
 }
 
 .nav__list {
@@ -39,11 +38,30 @@ color: var(--my-color);
 }
 
 .nav__item {
+  position: relative;
   font-size: 18px;
   line-height: 55px;
   text-decoration: none;
   color: var(--my-color);
+}
 
+.nav__item::after {
+  --scale: 0;
+
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 3px;
+  background: var(--my-color);
+  transform: scaleX(var(--scale));
+  transform-origin: var(--x) 50%;
+  transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+}
+
+.nav__item:hover::after {
+  --scale: 1;
 }
 
 .header__text {
@@ -51,7 +69,6 @@ color: var(--my-color);
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
-  color: #fff;
 }
 
 .header__title {
