@@ -1,0 +1,31 @@
+.competencies__title {
+	margin-bottom: 80px;
+}
+
+.competencies__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 77px 40px;
+}
+
+.competencies__item {
+	width: calc(50% - 25px);
+}
+
+.competencies__item img {
+	margin-bottom: 15px;
+	width: 50px;
+	height: 50px;
+}
+
+.competencies__subtitle {
+	font-size: 35px;
+	line-height: 46px;
+	color: var(--my-color);
+	margin-bottom: 15px;
+}
+
+.competencies__text {
+	font-size: 22px;
+	line-height: 29px;
+}
