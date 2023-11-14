@@ -1,0 +1,46 @@
+.contacts {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #191c19;
+	border-radius: 30px;
+	background-image: url(../resources/cuate.svg);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.contacts__title {
+	margin-bottom: 60px;
+	max-width: 553px;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.contacts__input {
+	margin-bottom: 60px;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	gap: 26px;
+}
+
+.input {
+	padding-left: 40px;
+	font-size: 20px;
+	line-height: 60px;
+	border: none;
+	border-radius: 1000px;
+	background-color: #3b3d3b;
+	color: #fff;
+}
+
+::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.contacts__btn {
+	width: 450px;
+	font-style: 22px;
+	line-height: 70px;
+	background-repeat: 7px;
+}

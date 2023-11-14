@@ -1,6 +1,8 @@
 @import url(../styles/header.css);
 @import url(../styles/project.css);
 @import url(../styles/competencies.css);
+@import url(../styles/services.css);
+@import url(../styles/contacts.css);
 
 :root {
 	--my-color: rgb(255, 204, 50);
