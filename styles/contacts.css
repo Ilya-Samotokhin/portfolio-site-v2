@@ -40,7 +40,16 @@
 
 .contacts__btn {
 	width: 450px;
-	font-style: 22px;
+	font-size: 22px;
 	line-height: 70px;
-	background-repeat: 7px;
+	border: none;
+	border-radius: 10px;
+	background-color: var(--my-color);
+	cursor: pointer;
+}
+
+.contacts__btn:hover {
+	background-color: inherit;
+	color: var(--my-color);
+	outline: 1px solid var(--my-color);
 }
