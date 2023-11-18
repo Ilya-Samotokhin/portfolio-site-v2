@@ -8,6 +8,27 @@
 
 .footer__wrapper {
 	display: flex;
+	flex-direction: column;
+}
+
+.footer__top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 66px;
+}
+
+.footer__contacts {
+	display: flex;
+	gap: 20px;
+}
+
+.footer__text {
+	color: #000;
+}
+
+.footer__bottom {
+	display: flex;
+	justify-content: space-between;
 }
 
 .footer__description {
