@@ -1,6 +1,8 @@
+/* Эксперимент с высотой DVH */
 .header {
+	position: relative;
 	width: 100%;
-	height: auto;
+	height: 100dvh;
 	background-image: url(../resources/greetings.jpg);
 	background-position: 50%;
 	background-repeat: no-repeat;
@@ -15,11 +17,11 @@
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 0 20px;
 	border-radius: 25px;
-	margin-bottom: 252px;
 }
 
 .header__bottom {
-	padding-bottom: 94px;
+	position: absolute;
+	bottom: 100px;
 }
 
 .logo {

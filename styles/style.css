@@ -3,6 +3,7 @@
 @import url(../styles/competencies.css);
 @import url(../styles/services.css);
 @import url(../styles/contacts.css);
+@import url(../styles/footer.css);
 
 :root {
 	--my-color: rgb(255, 204, 50);
