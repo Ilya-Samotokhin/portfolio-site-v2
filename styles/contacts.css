@@ -1,4 +1,5 @@
 .contacts {
+	margin-bottom: 10px;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	background-color: #191c19;
@@ -52,4 +53,8 @@
 	background-color: inherit;
 	color: var(--my-color);
 	outline: 1px solid var(--my-color);
+}
+
+.contacts {
+	margin-bottom: 10px;
 }

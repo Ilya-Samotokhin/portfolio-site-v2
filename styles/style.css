@@ -57,3 +57,19 @@ a {
 	width: 1155px;
 	margin: 0 auto;
 }
+
+@media (max-width: 1199px) {
+	.container {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
