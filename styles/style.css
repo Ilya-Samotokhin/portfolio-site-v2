@@ -5,6 +5,10 @@
 @import url(../styles/contacts.css);
 @import url(../styles/footer.css);
 
+html {
+	scroll-behavior: smooth;
+}
+
 :root {
 	--my-color: rgb(255, 204, 50);
 }
@@ -59,6 +63,11 @@ a {
 }
 
 @media (max-width: 1199px) {
+	h2 {
+		font-size: 45px;
+		line-height: 59px;
+	}
+
 	.container {
 		width: 100%;
 		padding-left: 15px;
@@ -67,6 +76,11 @@ a {
 }
 
 @media (max-width: 767px) {
+	section,
+	header {
+		margin-bottom: 100px;
+	}
+
 	.container {
 		width: 100%;
 		padding-left: 10px;

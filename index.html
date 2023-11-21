@@ -21,9 +21,9 @@
 				<a href="#" class="logo">samotokhin</a>
 				<nav class="header__nav">
 					<ul class="nav__list">
-						<li><a href="#" class="nav__item">Портфолио</a></li>
-						<li><a href="#" class="nav__item">Компетенции</a></li>
-						<li><a href="#" class="nav__item">Услуги</a></li>
+						<li><a href="#projects" class="nav__item">Портфолио</a></li>
+						<li><a href="#competencies" class="nav__item">Компетенции</a></li>
+						<li><a href="#services" class="nav__item">Услуги</a></li>
 						<li><a href="#" class="nav__item">Контакты</a></li>
 					</ul>
 				</nav>
@@ -47,7 +47,10 @@
 				<ul class="project__list">
 					<li class="project__item">
 						<a href="https://ilya-samotokhin.github.io/MetricaNN/" target="_blank">
-							<img src="./resources/MetricaNN.jpg" alt="Проект Metrica: макеты" />
+							<picture>
+								<source media="(max-width: 500px)" srcset="./resources/metricaNN__mobile.png">
+								<img class="project__image" src="./resources/MetricaNN.jpg" alt="Проект Metrica: макеты" />
+							</picture>
 							<h3 class="project__subtitle">дизайн интерьера</h3>
 							<p class="project__text">MetricaNN</p>
 							<p class="project__description">дизайн,верстка, настройка</p>
@@ -55,7 +58,10 @@
 					</li>
 					<li class="project__item">
 						<a href="https://ilya-samotokhin.github.io/MetricaNN/" target="_blank">
-							<img src="./resources/Nothing.png" alt="Проект Nothing: макеты" />
+							<picture>
+								<source media="(max-width: 500px)" srcset="./resources/nothing__mobile.png">
+								<img class="project__image" src="./resources/Nothing.png" alt="Проект Nothing: макеты" />
+							</picture>
 							<h3 class="project__subtitle">презентация продукта</h3>
 							<p class="project__text">Nothing</p>
 							<p class="project__description">дизайн,верстка, настройка</p>
@@ -63,7 +69,10 @@
 					</li>
 					<li class="project__item">
 						<a href="https://ilya-samotokhin.github.io/MetricaNN/" target="_blank">
-							<img src="./resources/TOPTRIP.png" alt="Проект TOPTRIP: макеты" />
+							<picture>
+								<source media="(max-width: 500px)" srcset="./resources/toptrip__mobile.png">
+								<img class="project__image" src="./resources/TOPTRIP.png" alt="Проект TOPTRIP: макеты" />
+							</picture>
 							<h3 class="project__subtitle">заказ путешествий</h3>
 							<p class="project__text">TOPTRIP</p>
 							<p class="project__description">дизайн,верстка, настройка</p>
@@ -74,9 +83,9 @@
 			</div>
 		</section>
 
-		<!-- <section class="competencies">
+		<section class="competencies">
 			<div class="container">
-				<h2 class="competencies__title">Мои компетенции</h2>
+				<h2 id="competencies" class="competencies__title">Мои компетенции</h2>
 				<ul class="competencies__list">
 					<li class="competencies__item">
 						<img src="./resources/html-and-css_picture.svg" alt="картинка файла html" />
@@ -123,16 +132,19 @@
 					</li>
 				</ul>
 			</div>
-		</section> -->
+		</section>
 
-		<!-- <section class="services">
+		<section class="services">
 			<div class="container">
-				<h2 class="services__title">
+				<h2 id="services" class="services__title">
 					Помогаю реализовать<br>широкий спектр задач
 				</h2>
 				<ul class="services__list">
 					<li class="services__item">
-						<img class="services__img" src="./resources/focus_on_bisiness.png" alt="изображение сайта для бизнеса">
+						<picture>
+							<source media="(max-width: 600px)" srcset="./resources/focus_on_bisiness_mobile.png">
+							<img class="services__img" src="./resources/focus_on_bisiness.png" alt="изображение сайта для бизнеса">
+						</picture>
 						<div class="services__description">
 							<h3 class="services__subtitle">
 								Разработка сайта под ключ
@@ -145,8 +157,11 @@
 						</div>
 					</li>
 					<li class="services__item">
-						<img class="services__img" src="./resources/moments-move-us.png"
-							alt="изображение процесса создания интерфейса">
+						<picture>
+							<source media="(max-width: 600px)" srcset="./resources/moments-move-us_mobile.png">
+							<img class="services__img" src="./resources/moments-move-us.png"
+								alt="изображение процесса создания интерфейса">
+						</picture>
 						<div class="services__description">
 							<h3 class="services__subtitle">
 								Верстка сайтов
@@ -159,7 +174,10 @@
 						</div>
 					</li>
 					<li class="services__item">
-						<img class="services__img" src="./resources/mobile-interface.png" alt="интерактивные элементы и адаптив">
+						<picture>
+							<source media="(max-width: 600px)" srcset="./resources/mobile-interface_mobile.png">
+							<img class="services__img" src="./resources/mobile-interface.png" alt="интерактивные элементы и адаптив">
+						</picture>
 						<div class="services__description">
 							<h3 class="services__subtitle">
 								Разработка мобильного интерфейса
@@ -173,7 +191,7 @@
 					</li>
 				</ul>
 			</div>
-		</section> -->
+		</section>
 
 		<!-- <section class="contacts">
 			<div class="container">

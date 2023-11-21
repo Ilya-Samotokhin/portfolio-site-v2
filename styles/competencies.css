@@ -29,3 +29,34 @@
 	font-size: 22px;
 	line-height: 29px;
 }
+
+@media (max-width: 1199px) {
+	.competencies__subtitle {
+		font-size: 28px;
+		line-height: 36px;
+		margin-bottom: 15px;
+	}
+
+	.competencies__item img {
+		margin-bottom: 10px;
+		width: 36px;
+		height: 36px;
+	}
+
+	.competencies__text {
+		font-size: 18px;
+		line-height: 23px;
+	}
+}
+
+@media (max-width: 767px) {
+	.competencies__list {
+		display: flex;
+		flex-direction: column;
+		gap: 60px;
+	}
+
+	.competencies__item {
+		width: 100%;
+	}
+}
