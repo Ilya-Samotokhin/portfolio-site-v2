@@ -91,6 +91,8 @@
 
 @media (max-width: 767px) {
 	.contacts {
+		margin-bottom: 0;
+		border-radius: 0;
 		background-image: none;
 		text-align: center;
 	}

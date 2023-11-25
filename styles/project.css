@@ -9,6 +9,11 @@
 .project__item {
 	position: relative;
 	height: auto;
+	margin-bottom: 10px;
+}
+
+.project__item:last-child {
+	margin-bottom: 0;
 }
 
 .project__image {
@@ -107,6 +112,11 @@
 }
 
 @media (max-width: 767px) {
+	.project__title {
+		font-size: 30px;
+		line-height: 37px;
+	}
+
 	.project__subtitle {
 		top: 30px;
 		left: 33px;

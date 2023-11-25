@@ -51,16 +51,20 @@
 }
 
 @media (max-width: 767px) {
+	.services__title {
+		margin-bottom: 60px;
+		font-size: 28px;
+		line-height: 35px;
+	}
+
 	.services__subtitle {
+		width: 100%;
 		font-size: 35px;
 		line-height: 38px;
 	}
 
 	.services__description {
 		flex-direction: column;
-	}
-	.services__subtitle {
-		width: 100%;
 	}
 
 	.services__text {
