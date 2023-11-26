@@ -4,6 +4,7 @@
 @import url(../styles/services.css);
 @import url(../styles/contacts.css);
 @import url(../styles/footer.css);
+@import url(../styles/burger.css);
 
 html {
 	scroll-behavior: smooth;
@@ -28,9 +29,9 @@ header {
 	margin-bottom: 150px;
 }
 
-/* .body_fixed {
-  overflow: hidden;
-} */
+.body_fixed {
+	overflow: hidden;
+}
 
 h1,
 h2,
