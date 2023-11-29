@@ -157,10 +157,10 @@
 	}
 
 	.burger__btn.burger-btn_open::before {
-		top: 11px;
+		top: 22px;
 	}
 
 	.burger__btn.burger-btn_open::after {
-		bottom: 21px;
+		bottom: 0px;
 	}
 }
