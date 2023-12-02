@@ -101,6 +101,12 @@
 	}
 }
 
+@media (max-width: 960px) {
+	.header {
+		background-image: url(../resources/greetings__tablet.jpg);
+	}
+}
+
 @media (max-width: 767px) {
 	.header__top {
 		padding: 0;
@@ -121,5 +127,11 @@
 		width: 100%;
 		font-size: 40px;
 		line-height: 47px;
+	}
+}
+
+@media (max-width: 500px) {
+	.header {
+		background-image: url(../resources/greetings__mobile.jpg);
 	}
 }
