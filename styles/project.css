@@ -7,9 +7,13 @@
 }
 
 .project__item {
-	position: relative;
-	height: auto;
 	margin-bottom: 10px;
+}
+
+.project__link {
+	position: relative;
+	display: block;
+	height: 550px;
 }
 
 .project__item:last-child {
@@ -17,10 +21,10 @@
 }
 
 .project__image {
-	display: block;
 	width: 100%;
-	height: 550px;
+	height: 100%;
 	border-radius: 25px;
+	object-fit: cover;
 }
 
 .project__image:hover {
@@ -78,10 +82,14 @@
 }
 
 @media (max-width: 1199px) {
-	.project__image {
-		height: 445px;
+	/* .project__image {
 		object-fit: cover;
+	} */
+
+	.project__link {
+		height: 445px;
 	}
+
 	.project__subtitle {
 		top: 40px;
 		left: 35px;

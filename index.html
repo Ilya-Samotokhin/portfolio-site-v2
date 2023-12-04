@@ -70,36 +70,39 @@
 				<h2 id="projects" class="project__title">Самые свежие проекты</h2>
 				<ul class="project__list">
 					<li class="project__item">
-						<a href="https://ilya-samotokhin.github.io/MetricaNN/" target="_blank">
+						<a class="project__link" href="https://ilya-samotokhin.github.io/MetricaNN/" target="_blank">
 							<picture>
 								<source media="(max-width: 500px)" srcset="./resources/metricaNN__mobile.png">
+								<source media="(max-width: 960px)" srcset="./resources/metricaNN__tablet.png">
 								<img class="project__image" src="./resources/MetricaNN.jpg" alt="Проект Metrica: макеты" />
 							</picture>
 							<h3 class="project__subtitle">дизайн интерьера</h3>
 							<p class="project__text">MetricaNN</p>
-							<p class="project__description">дизайн,верстка, настройка</p>
+							<p class="project__description">дизайн, верстка, настройка</p>
 						</a>
 					</li>
 					<li class="project__item">
-						<a href="https://ilya-samotokhin.github.io/MetricaNN/" target="_blank">
+						<a class="project__link" href="https://ilya-samotokhin.github.io/MetricaNN/" target="_blank">
 							<picture>
 								<source media="(max-width: 500px)" srcset="./resources/nothing__mobile.png">
+								<source media="(max-width: 960px)" srcset="./resources/nothing__tablet.png">
 								<img class="project__image" src="./resources/Nothing.png" alt="Проект Nothing: макеты" />
 							</picture>
 							<h3 class="project__subtitle">презентация продукта</h3>
 							<p class="project__text">Nothing</p>
-							<p class="project__description">дизайн,верстка, настройка</p>
+							<p class="project__description">дизайн, верстка, настройка</p>
 						</a>
 					</li>
 					<li class="project__item">
-						<a href="https://ilya-samotokhin.github.io/MetricaNN/" target="_blank">
+						<a class="project__link" href="https://ilya-samotokhin.github.io/MetricaNN/" target="_blank">
 							<picture>
 								<source media="(max-width: 500px)" srcset="./resources/toptrip__mobile.png">
+								<source media="(max-width: 960px)" srcset="./resources/toptrip__tablet.png">
 								<img class="project__image" src="./resources/TOPTRIP.png" alt="Проект TOPTRIP: макеты" />
 							</picture>
 							<h3 class="project__subtitle">заказ путешествий</h3>
 							<p class="project__text">TOPTRIP</p>
-							<p class="project__description">дизайн,верстка, настройка</p>
+							<p class="project__description">дизайн, верстка, настройка</p>
 						</a>
 					</li>
 				</ul>
@@ -161,14 +164,16 @@
 		<section class="services">
 			<div class="container">
 				<h2 id="services" class="services__title">
-					Помогаю реализовать<br>широкий спектр задач
+					Помогаю реализовать широкий спектр задач
 				</h2>
 				<ul class="services__list">
 					<li class="services__item">
-						<picture>
-							<source media="(max-width: 600px)" srcset="./resources/focus_on_bisiness_mobile.png">
-							<img class="services__img" src="./resources/focus_on_bisiness.png" alt="изображение сайта для бизнеса">
-						</picture>
+						<div class="services__image_wrapper">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./resources/focus_on_bisiness_mobile.png">
+								<img class="services__img" src="./resources/focus_on_bisiness.png" alt="изображение сайта для бизнеса">
+							</picture>
+						</div>
 						<div class="services__description">
 							<h3 class="services__subtitle">
 								Разработка сайта под ключ
@@ -181,11 +186,13 @@
 						</div>
 					</li>
 					<li class="services__item">
-						<picture>
-							<source media="(max-width: 600px)" srcset="./resources/moments-move-us_mobile.png">
-							<img class="services__img" src="./resources/moments-move-us.png"
-								alt="изображение процесса создания интерфейса">
-						</picture>
+						<div class="services__image_wrapper">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./resources/moments-move-us_mobile.png">
+								<img class="services__img" src="./resources/moments-move-us.png"
+									alt="изображение процесса создания интерфейса">
+							</picture>
+						</div>
 						<div class="services__description">
 							<h3 class="services__subtitle">
 								Верстка сайтов
@@ -198,10 +205,13 @@
 						</div>
 					</li>
 					<li class="services__item">
-						<picture>
-							<source media="(max-width: 600px)" srcset="./resources/mobile-interface_mobile.png">
-							<img class="services__img" src="./resources/mobile-interface.png" alt="интерактивные элементы и адаптив">
-						</picture>
+						<div class="services__image_wrapper">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./resources/mobile-interface_mobile.png">
+								<img class="services__img" src="./resources/mobile-interface.png"
+									alt="интерактивные элементы и адаптив">
+							</picture>
+						</div>
 						<div class="services__description">
 							<h3 class="services__subtitle">
 								Разработка мобильного интерфейса
@@ -227,7 +237,7 @@
 						<input type="text" placeholder="Имя Фамилия" name="name" class="input">
 						<input type="email" placeholder="example@mail.com" name="email" class="input">
 					</div>
-					<button class="contacts__btn">Отправить</button>
+					<button type="submit" class="contacts__btn">Отправить</button>
 				</form>
 			</div>
 		</section>
