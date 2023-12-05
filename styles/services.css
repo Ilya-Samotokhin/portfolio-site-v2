@@ -1,6 +1,6 @@
 .services__title {
 	margin-bottom: 80px;
-	width: 575px;
+	max-width: 575px;
 }
 .services__list {
 	display: flex;
@@ -62,7 +62,6 @@
 @media (max-width: 767px) {
 	.services__title {
 		margin-bottom: 60px;
-		width: 100%;
 		font-size: 28px;
 		line-height: 35px;
 	}
