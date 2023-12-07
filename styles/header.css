@@ -83,7 +83,11 @@
 	color: var(--my-color);
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 960px) {
+	.header {
+		background-image: url(../resources/greetings__tablet.jpg);
+	}
+
 	.header__top {
 		background: none;
 	}
@@ -98,12 +102,6 @@
 
 	.header__title {
 		font-size: 60px;
-	}
-}
-
-@media (max-width: 960px) {
-	.header {
-		background-image: url(../resources/greetings__tablet.jpg);
 	}
 }
 

@@ -30,7 +30,7 @@
 	line-height: 29px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 960px) {
 	.competencies__subtitle {
 		font-size: 28px;
 		line-height: 36px;

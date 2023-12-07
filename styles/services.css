@@ -39,7 +39,7 @@
 	line-height: 29px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 960px) {
 	.services__subtitle {
 		font-size: 45px;
 		line-height: 50px;

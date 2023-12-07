@@ -45,7 +45,7 @@
 	opacity: 0.5;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 960px) {
 	.footer {
 		padding-top: 51px;
 		padding-bottom: 25px;

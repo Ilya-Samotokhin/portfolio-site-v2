@@ -81,11 +81,7 @@
 	color: var(--my-color);
 }
 
-@media (max-width: 1199px) {
-	/* .project__image {
-		object-fit: cover;
-	} */
-
+@media (max-width: 960px) {
 	.project__link {
 		height: 445px;
 	}
